@@ -1,0 +1,63 @@
+
+/*
+Dark grey (text): #333333
+Dark Blue (headings, links) #000066
+Mid Blue (header) #333399
+Light blue (top navigation) #CCCCFF
+Mid grey: #666666
+*/
+
+* {
+background:transparent !important;
+color:#000 !important;
+text-shadow:none !important;
+filter:none !important;
+-ms-filter:none !important;
+}
+
+body {
+margin:0;
+padding:0;
+line-height: 1.4em;
+}
+
+@page {
+margin: 0.5cm;
+}
+
+nav, footer, video, audio, object, embed, header, a, navbar { 
+display:none; 
+}
+
+body {
+font: 12pt Georgia, "Times New Roman", Times, serif;
+color: #000;
+}
+
+h1 {
+font-size: 24pt;
+}
+
+h2 {
+font-size: 18pt;
+}
+
+h3 {
+font-size: 14pt;
+}
+
+.footer, .container-fluid{
+    display: none;
+}
+
+navbar navbar-default
+{
+    display: none;
+}
+
+html { font-size: 12pt; }
+
+.folha { background-color: #ccc; padding: 0.5em; }
+.a4_vertical { width: 793px; height: 1122px; }
+.a4_horizontal { width: 1122px; height: 793px; }
+

@@ -1,0 +1,333 @@
+
+/*
+Dark grey (text): #333333
+Dark Blue (headings, links) #000066
+Mid Blue (header) #333399
+Light blue (top navigation) #CCCCFF
+Mid grey: #666666
+
+
+
+
+
+
+*/
+
+
+.geral{
+    background-color: whitesmoke;
+    position:relative;
+    padding-bottom: 60px;
+    /*height: 1300px;*/
+    min-height: 100%;
+}
+
+.header{    
+    padding-top: 2px;
+    background-color: whitesmoke;
+}
+
+.footer{
+/*    float: none;
+    padding-top: 200px;*/
+    background-color: whitesmoke;
+    position: absolute;
+    padding-top: 1px;
+    padding-bottom: 10px;
+	bottom: 0;    
+    width:100%;
+    border-radius: 5px;
+    border-color: lightblue;
+    text-align: center;
+}
+.clear{
+       padding-top: 20px;
+
+}
+.conteudo {
+	padding-bottom: 3px;
+    min-height: 100%;
+    background-color: whitesmoke;
+    overflow:hidden;
+    /*width: 100%;*/
+	}
+
+body {
+		background-color: #AABBDD;
+		/*background-color: yellowgreen;*/
+        
+        margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		margin-left: 70px;
+        height: 100%;
+		font-size: 12px;
+		font-family: arial, sans-serif;
+	}
+
+p {
+    /*
+    
+    	font-weight: bold;
+        border-width: 1px;
+        border-style: ridge;
+    */
+		font-style: italic;
+		font-size: 14px;
+		font-family: arial, sans-serif;
+        border-color: lightblue;
+	}
+    a {
+		color: blue;
+	}
+
+	a:link {
+		color: greenyellow;
+	}
+
+	a:visited {
+		color: red;
+	}
+
+	a:hover {
+		color: orange;
+		font-style: italic;
+	}
+
+	h1 {
+		color: gray;
+        font-weight: bold;
+		background-color: whitesmoke;
+        text-align: center;
+        letter-spacing: 1px;
+        animation-direction: reverse;	
+        font-size: 23px;
+        text-transform: uppercase;
+        padding-left: 15px;
+        box-shadow: 3px 3px 3px 5px darkgray;
+        border-radius: 5px;
+        
+	}
+h1:hover{
+    background-color: #DFDFDF ;
+    box-shadow: 7px 7px 7px 8px darkgray;
+}
+
+
+	h2 {
+		color: gray;
+        font-weight: bold;
+		background-color: whitesmoke;
+        text-align: center;
+        letter-spacing: 1px;
+        
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-left: 15px;
+        box-shadow: 3px 3px 3px 5px darkgray;
+        border-radius: 5px;
+        
+	}
+h2:hover{
+    background-color: #DFDFDF ;
+    box-shadow: 7px 7px 7px 8px darkgray;
+}
+
+
+p{
+    
+    
+}
+
+
+.esquerda{
+        background-color: #fcfcfc;        
+        /*border-width: 1px;*/
+        /*border-style: ridge;
+        border-color: black;
+        margin-top: 5px;
+    */
+        border-radius: 10px;        
+        margin-right: 4px;
+        margin-bottom: 10px;
+        margin-left: 10px;    
+        height: auto;
+        width: 34%;
+        float: left;
+        box-shadow: 4px 4px 5px 5px darkgray;
+}
+.esquerda:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 8px darkgray;
+}
+
+.direita{
+        background-color: #AAFFAA;        
+        /*border-width: 1px;*/
+        /*border-style: ridge;
+        border-color: black;
+        margin-top: 5px;
+    */
+        border-radius: 10px;        
+        margin-right: 4px;
+        margin-bottom: 10px;
+        margin-left: 10px;    
+        height: auto;
+        width: 34%;
+        float: right;
+        box-shadow: 4px 4px 5px 5px darkgray;
+        height: 1200px;
+        width: 63%;
+    
+}
+.direita:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 8px darkgray;
+}
+.formacao{
+    
+        background-color: #fcfcfc;
+        border-color: skyblue;           
+        position: relative;
+        height: auto;        
+        /*border-top: 299px;*/        
+        /*margin-top: 3px;*/
+        margin-right: 3px;
+        margin-bottom: 3x;
+        margin-left: 3px;
+        /*border-width: 1px;
+        border-style: ridge;
+        border-color: aliceblue;*/
+}
+ .formacao:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 2px darkgray;
+}   
+
+.pessoais{
+ /*   float:left;
+    position: relative;*/
+    background-color: #fcfcfc;
+    /*border-color: gold;
+    border-width: thick;
+    border-style: ridge;
+    border-color: aliceblue;    
+    
+    border-style: ridge;    */
+    height: auto;
+    
+    /*border-width: 1px;*/
+        
+    margin-top: 3px;
+    margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+    
+}
+
+.pessoais:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 2px darkgray;
+}
+.extra-curriculo{
+        background-color: #fcfcfc;    
+        margin-top: 3px;
+        margin-right: 3px;
+        margin-bottom: 3x;
+        margin-left: 3px;
+    
+/*border-width: 2px;
+    border-style: ridge;
+    border-color: aliceblue; */       
+}
+
+.extra-curriculo:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 2px darkgray;
+}
+
+.profissional{
+    float:right;
+    position: relative;
+    background-color: #fcfcfc;
+    /*border-color: gold;
+    border-width: thick;
+    border-style: dotted;    */
+
+    /*border-width: 1px;
+   border-style: ridge;*/
+    box-shadow: 2px 2px 5px 5px darkgray;
+    /* border-color: black;*/
+    border-radius: 10px;
+    margin-right: 10px;
+    min-height: 100%
+    /*
+    margin-top: 100px;
+    
+	margin-bottom: 10px;
+	margin-left: 70px;*/
+    
+}
+
+.profissional:hover{
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px 8px darkgray;
+}
+
+.img-circle{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar{
+    /*height: 200px;            
+    margin-bottom: 10px;
+      width: 100px;
+*/
+  
+    width: auto;
+    height: auto;
+    border-style: ridge;
+    box-shadow: 2px 2px 5px 5px darkgray;
+    margin-top: auto;
+    
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 30%;
+
+    
+}
+	
+.empresa{
+    	font-style: italic;
+		font-weight: bold;
+        font-size: 20px;
+}
+.empresa:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 2px darkgray;
+}
+
+.empresa1{
+    	/*font-style: italic;*/
+		/*font-weight: bold;*/
+        font-size: 15px;
+    padding-left: 10px;
+    text-align: justify;
+    /*border-width: 1px;*/
+        /*border-style: ridge;
+        border-color: lightblue;*/
+        background-color: #fcfcfc;       
+}
+.empresa1:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 2px darkgray;
+}
+.empresa-tempo
+{
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 200px;
+}
+

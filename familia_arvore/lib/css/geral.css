@@ -1,0 +1,69 @@
+.work{
+    
+    background-color: #BBCCFF;
+    /*background-image: url("../../imagens/bandeira_franca.jpg");  */
+    height: 60%;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;    
+    box-shadow: 2px 2px 3px 18px #CDDCFF;    
+    width: 70%;
+}
+
+.row{
+    float:none;
+    height: 100px;
+    width: 180px;
+    
+}
+.col{
+    float: left;  
+    position: absolute;
+    padding-left: 30px;
+    box-shadow: 5px 5px 5px 8px #FFBBAA;
+    
+}
+
+table {
+    /*margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;*/
+    border: 1px solid #FF44EE ;
+}
+th  {    
+    text-align: center;
+    background-color: #FFFFEE;    
+}
+tr{
+    
+    background-color: aqua;
+}
+
+td{
+    height: 300px;
+    vertical-align: middle;
+    /*width: 10%;*/
+    background-color: #CCDDEE;
+    margin-left: -10px;
+    text-align: center;
+    border: 1px solid #FF44EE ;
+    margin-left: -20px;
+}
+
+
+.footer{
+    background-color: whitesmoke;
+    position: absolute;
+    padding-top: auto;
+    /*padding-bottom: 10px;*/
+	bottom: 0px;    
+    width:100%;
+    border-radius: 5px;
+    border-color: lightblue;
+    text-align: center;
+    
+}
