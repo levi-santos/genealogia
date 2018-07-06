@@ -1,39 +1,6 @@
-<html>
-<meta charset="UTF-8" lang="br">
-<head>
-		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
- 		<link rel="stylesheet" href="../lib/bootstrap/bootstrap/css/bootstrap.css">              
-        <link rel="stylesheet" type="text/css" href="../lib/css/print.css" media="print">        
-        <script src="../lib/jquery/jquery-3.3.1.slim.min.js"></script>
-        <script src="../lib/bootstrap/bootstrap/js/bootstrap.js"></script>  
-<script type="text/javascript">
 
-function preview(fileInput) {
-	var files = fileInput.files;
-	for (var i = 0; i < files.length; i++) {                
-	         var file = files[i];
-	         var imageType = /image.*/;     
-	         if (!file.type.match(imageType)) {
-	                 continue;
-	         }              
-	         var img=document.getElementById("avatar");             
-	         img.file = file;
-	         var reader = new FileReader();
-	         reader.onload = (function(aImg) {
-	                 return function(e) {
-	                         aImg.src = e.target.result;
-	                 };
-	         })(img);
-	         reader.readAsDataURL(file);
-	}
-	}
-
-
-</script>
-<title>Árvore Genealógica !!!!</title>
-</head>
-<body>
-
+  <?php include("header.php"); ?>
+  
 	<form method="post" enctype="multipart/form-data"action="recebeimg.php" >
 	 <!--  aqui ele nao executa  -->
 		<div class="imagem"><img  alt="Carregue a imagem aqui!!!" id="avatar" /></div>	
@@ -69,11 +36,34 @@ function preview(fileInput) {
 		<button type="button" id="voltar">Voltar</button>
 	    </div>
 	</form>
-</body>
-</html>
+
+<script type="text/javascript">
+
+function preview(fileInput) {
+	var files = fileInput.files;
+	for (var i = 0; i < files.length; i++) {                
+	         var file = files[i];
+	         var imageType = /image.*/;     
+	         if (!file.type.match(imageType)) {
+	                 continue;
+	         }              
+	         var img=document.getElementById("avatar");             
+	         img.file = file;
+	         var reader = new FileReader();
+	         reader.onload = (function(aImg) {
+	                 return function(e) {
+	                         aImg.src = e.target.result;
+	                 };
+	         })(img);
+	         reader.readAsDataURL(file);
+	}
+	}
+
+
+</script>
 
 <?php 
-
+include("footer.php");
 $uploaddir = '/var/www/arvores_genealogica/php/uploads/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 /*print_r($_FILES);
@@ -124,11 +114,4 @@ if ( isset( $_FILES[ 'arquivo' ][ 'name' ] ) && $_FILES[ 'arquivo' ][ 'error' ] 
 }
 else
     echo ''.'<!--Você não enviou nenhum arquivo!-->';
-    
-	
-	
-
-
-
-
 ?>
